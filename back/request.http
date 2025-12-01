@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/habits/
+
+###
+GET http://localhost:3000/api/habits/1234
+
+###
+POST http://localhost:3000/api/habits/
+Content-Type: application/json
+
+{
+  "title":"Titulo de nota",
+  "description": "Descripcion del habito" 
+}
+
+###
+DELETE http://localhost:3000/api/habits/1010
+
+###
+PUT http://localhost:3000/api/habits/4444
+Content-Type: application/json 
+
+{
+  "title": "Titulo nuevo del habito"
+}
