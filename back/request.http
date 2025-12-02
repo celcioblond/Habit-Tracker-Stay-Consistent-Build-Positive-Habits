@@ -1,24 +1,24 @@
 GET http://localhost:3000/api/habits/
 
 ###
-GET http://localhost:3000/api/habits/1234
+GET http://localhost:3000/api/habits/692e7977e2f69ec13afddf62
 
 ###
 POST http://localhost:3000/api/habits/
 Content-Type: application/json
 
 {
-  "title":"Titulo de nota",
-  "description": "Descripcion del habito" 
+  "title":"Tercer habito creado para la db",
+  "description": "Descripcion del tercer habito creado para la db " 
 }
 
 ###
-DELETE http://localhost:3000/api/habits/1010
+DELETE http://localhost:3000/api/habits/692e7b62171258c0167d4279
 
 ###
-PUT http://localhost:3000/api/habits/4444
+PUT http://localhost:3000/api/habits/692e7977e2f69ec13afddf62
 Content-Type: application/json 
 
 {
-  "title": "Titulo nuevo del habito"
+  "title": "Segunda actualizadion del habito creado"
 }
